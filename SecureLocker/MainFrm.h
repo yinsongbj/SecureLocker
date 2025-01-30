@@ -52,6 +52,7 @@ public:
 	afx_msg void OnFriendkeys();
 	afx_msg void OnEncryptfile();
 	afx_msg void OnDecryptfile();
+	afx_msg void OnEreasefile();
 	afx_msg void OnKeygen();
 	afx_msg void OnKeyRemove();
 	afx_msg void OnKeyImport();

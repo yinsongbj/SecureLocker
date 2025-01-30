@@ -66,6 +66,12 @@
     <ClInclude Include="CPasswordDlg.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="CEreaserEdit.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EreaserDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="SecureLocker.cpp">
@@ -110,6 +116,12 @@
     <ClCompile Include="CPasswordDlg.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="CEreaserEdit.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EreaserDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="SecureLocker.reg" />
@@ -117,6 +129,7 @@
       <Filter>资源文件</Filter>
     </None>
     <None Include="README.md" />
+    <None Include="README-zh.md" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="SecureLocker.rc">

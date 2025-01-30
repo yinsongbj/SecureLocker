@@ -20,6 +20,7 @@
 #define IDD_DIALOG_KEYMGR               320
 #define IDD_DIALOG_DECRYPT              321
 #define IDD_DIALOG_PASSWORD             322
+#define IDD_EREASER_DIALOG              323
 #define IDB_BITMAP_USER                 324
 #define IDC_LIST_KEYS                   1000
 #define IDC_BUTTON_GENKEY               1001
@@ -72,13 +73,15 @@
 #define ID_KEYPUBLIC                    32801
 #define ID_POPMENU_32802                32802
 #define ID_POPMENU_OPENFOLDER           32803
+#define ID_POPMENU_32804                32804
+#define ID_EREASEFILE                   32805
 
 // Next default values for new objects
 // 
 #ifdef APSTUDIO_INVOKED
 #ifndef APSTUDIO_READONLY_SYMBOLS
-#define _APS_NEXT_RESOURCE_VALUE        325
-#define _APS_NEXT_COMMAND_VALUE         32804
+#define _APS_NEXT_RESOURCE_VALUE        327
+#define _APS_NEXT_COMMAND_VALUE         32806
 #define _APS_NEXT_CONTROL_VALUE         1021
 #define _APS_NEXT_SYMED_VALUE           310
 #endif

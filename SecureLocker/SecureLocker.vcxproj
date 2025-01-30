@@ -192,12 +192,14 @@
     <ClInclude Include="CAesKey.h" />
     <ClInclude Include="CDecryptDlg.h" />
     <ClInclude Include="CEncryptDlg.h" />
+    <ClInclude Include="CEreaserEdit.h" />
     <ClInclude Include="CFileLocker.h" />
     <ClInclude Include="CFriendKeysDlg.h" />
     <ClInclude Include="CKeyGenDlg.h" />
     <ClInclude Include="CKeyMangerDlg.h" />
     <ClInclude Include="CPasswordDlg.h" />
     <ClInclude Include="CRsaKey.h" />
+    <ClInclude Include="EreaserDlg.h" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="MainFrm.h" />
     <ClInclude Include="pch.h" />
@@ -211,12 +213,14 @@
     <ClCompile Include="CAesKey.cpp" />
     <ClCompile Include="CDecryptDlg.cpp" />
     <ClCompile Include="CEncryptDlg.cpp" />
+    <ClCompile Include="CEreaserEdit.cpp" />
     <ClCompile Include="CFileLocker.cpp" />
     <ClCompile Include="CFriendKeysDlg.cpp" />
     <ClCompile Include="CKeyGenDlg.cpp" />
     <ClCompile Include="CKeyMangerDlg.cpp" />
     <ClCompile Include="CPasswordDlg.cpp" />
     <ClCompile Include="CRsaKey.cpp" />
+    <ClCompile Include="EreaserDlg.cpp" />
     <ClCompile Include="MainFrm.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
@@ -229,6 +233,7 @@
     <ClCompile Include="SecureLockerView.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="README-zh.md" />
     <None Include="README.md" />
     <None Include="res\SecureLocker.rc2" />
     <None Include="SecureLocker.reg" />

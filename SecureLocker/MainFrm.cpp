@@ -15,6 +15,8 @@
 #include "CFriendKeysDlg.h"
 #include "CDecryptDlg.h"
 #include "CEncryptDlg.h"
+#include "EreaserDlg.h"
+
 
 // CMainFrame
 
@@ -28,6 +30,7 @@ BEGIN_MESSAGE_MAP(CMainFrame, CFrameWnd)
 	ON_COMMAND(ID_FRIENDKEYS, &CMainFrame::OnFriendkeys)
 	ON_COMMAND(ID_ENCRYPTFILE, &CMainFrame::OnEncryptfile)
 	ON_COMMAND(ID_DECRYPTFILE, &CMainFrame::OnDecryptfile)
+	ON_COMMAND(ID_EREASEFILE, &CMainFrame::OnEreasefile)
 	ON_COMMAND(ID_KEYGEN, &CMainFrame::OnKeygen)
 	ON_COMMAND(ID_KEYREMOVE, &CMainFrame::OnKeyRemove)
 	ON_COMMAND(ID_KEYIMPORT, &CMainFrame::OnKeyImport)
@@ -211,6 +214,12 @@ void CMainFrame::OnEncryptfile()
 {
 	// TODO: 在此添加命令处理程序代码
 	CEncryptDlg dlg;
+	dlg.DoModal();
+}
+
+void CMainFrame::OnEreasefile()
+{
+	CEreaserDlg dlg;
 	dlg.DoModal();
 }
 
